@@ -1,0 +1,18 @@
+<h2>Create TodoList</h2>
+<form (submit)="addList(title.value,detail.value)">
+  <div class="form-group">
+  
+    <div>
+    <label for="exampleInputEmail1">Title : </label>
+    <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Your Title" #title>
+
+
+    <label for="exampleInputPassword1">Detail : </label>
+    <input type="text" class="form-control" placeholder="details" #detail>
+    </div>
+    <!-- <a  > -->
+    <div style="padding: 20px 0px 0px 0px;">
+    <button type="submit" value="submit" class="btn btn-primary" style="background-color: #ff3333;">Submit</button>
+    </div>
+  </div>
+</form>
